@@ -46,6 +46,7 @@
         android:layout_marginLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
         android:drawableLeft="@drawable/ic_baseline_search_24"
         android:hint="    Search items.."
         android:background="@drawable/search_background" />
@@ -57,18 +58,34 @@
         android:layout_marginLeft="15dp"
         android:orientation="horizontal">
 
-     <Spinner
-         android:layout_weight="0.3"
-        android:id="@+id/Spinner"
-        android:layout_width="wrap_content"
-         android:background="@drawable/search_background"
-        android:layout_height="30dp"
-        android:layout_margin="5dp"
-        />
+        <Button
+            app:backgroundTint="@null"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:drawableLeft="@drawable/ic_outline_filter_alt_24"
+            android:textColor="@color/lightblack"
+            android:text="filters"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            />
+
+        <Button
+            app:backgroundTint="@null"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:textColor="@color/lightblack"
+            android:text="Book"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            />
 
        <Button
            app:backgroundTint="@null"
-           android:layout_weight="0.3"
+           android:layout_weight="1"
            android:layout_width="wrap_content"
            android:layout_height="30dp"
            android:textSize="10dp"
@@ -81,7 +98,7 @@
         <Button
             app:backgroundTint="@null"
             android:layout_margin="6dp"
-            android:layout_weight="0.3"
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:textSize="10dp"

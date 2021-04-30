@@ -12,7 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 
-public class orderfragment extends Fragment implements AdapterView.OnItemSelectedListener {
+public class orderfragment extends Fragment  {
 
 
     private static final String ARG_PARAM1 = "param1";
@@ -51,24 +51,6 @@ public class orderfragment extends Fragment implements AdapterView.OnItemSelecte
 
         View view= inflater.inflate(R.layout.fragment_orderfragment, container, false);
 
-
-        String[] rating = {"Ratting", "Poor", "Good", "Average", "Above Average", "Excelent"};
-        Spinner spinner = (Spinner)view.findViewById(R.id.Spinner);
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_spinner_item, rating);
-        adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
-        spinner.setAdapter(adapter);
-
         return  view;
-    }
-
-    @Override
-    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> adapterView) {
-
     }
 }
