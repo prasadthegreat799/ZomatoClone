@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".premiumfragment">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".premiumfragment"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Pro Fragment"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/lightblack"
+        android:textStyle="bold" />
 
-</FrameLayout>
+</RelativeLayout>
