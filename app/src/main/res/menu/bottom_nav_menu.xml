@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+       android:id="@+id/order"
+        android:title="Order"
+        android:icon="@drawable/order" />
+
+
+    <item
+       android:id="@+id/donate"
+        android:title="Donate"
+        android:icon="@drawable/donate" />
+
+    <item
+       android:id="@+id/history"
+        android:title="History"
+        android:icon="@drawable/history" />
+
+
+
+</menu>
