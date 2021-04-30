@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".orderfragment">
@@ -18,14 +19,14 @@
            android:layout_width="0dp"
            android:layout_height="30dp"
            android:src="@drawable/location"
-           android:layout_margin="10dp"/>
+           />
 
        <TextView
            android:layout_weight="1"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="Andhra Pradesh,India"
-           android:layout_margin="10dp"
+           android:layout_marginTop="5dp"
            android:textSize="20sp"
            android:textStyle="bold"
            android:textColor="@color/lightblack"
@@ -35,7 +36,6 @@
            android:layout_weight="0.5"
            android:layout_width="0dp"
            android:layout_height="30dp"
-           android:layout_margin="10dp"
            android:src="@drawable/profile" />
 
    </LinearLayout>
@@ -58,16 +58,41 @@
         android:orientation="horizontal">
 
      <Spinner
-        android:id="@+id/classSpinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvDemo"
+         android:layout_weight="0.3"
+        android:id="@+id/Spinner"
+        android:layout_width="wrap_content"
+         android:background="@drawable/search_background"
+        android:layout_height="30dp"
         android:layout_margin="5dp"
-         android:entries="@array/rating" />
+        />
+
+       <Button
+           app:backgroundTint="@null"
+           android:layout_weight="0.3"
+           android:layout_width="wrap_content"
+           android:layout_height="30dp"
+           android:textSize="10dp"
+           android:textColor="@color/lightblack"
+           android:text="Offers"
+           android:layout_margin="5dp"
+           android:background="@drawable/button_background"
+           />
+
+        <Button
+            app:backgroundTint="@null"
+            android:layout_margin="6dp"
+            android:layout_weight="0.3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:textColor="@color/lightblack"
+            android:text="more"
+            android:background="@drawable/button_background"
+            />
 
     </LinearLayout>
 
-    
+
 
 
     <FrameLayout
