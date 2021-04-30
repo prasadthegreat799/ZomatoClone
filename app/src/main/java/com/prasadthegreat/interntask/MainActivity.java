@@ -41,8 +41,12 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.donate:
                             fragment=new donatefragment();
                             break;
-                        case R.id.history:
-                            fragment=new Historyfragment();
+                        case R.id.goout:
+                            fragment=new Gooutfragment();
+                            break;
+
+                        case R.id.premium:
+                            fragment=new premiumfragment();
                             break;
 
                     }

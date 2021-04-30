@@ -27,6 +27,7 @@
            android:text="Andhra Pradesh,India"
            android:layout_margin="10dp"
            android:textSize="20sp"
+           android:textStyle="bold"
            android:textColor="@color/lightblack"
            />
 
@@ -35,7 +36,7 @@
            android:layout_width="0dp"
            android:layout_height="30dp"
            android:layout_margin="10dp"
-           android:src="@drawable/user_profile" />
+           android:src="@drawable/profile" />
 
    </LinearLayout>
 
@@ -61,10 +62,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvDemo"
-        android:layout_marginTop="25dp"
+        android:layout_margin="5dp"
          android:entries="@array/rating" />
 
     </LinearLayout>
+
+    
 
 
     <FrameLayout

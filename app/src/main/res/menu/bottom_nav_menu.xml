@@ -13,9 +13,16 @@
         android:icon="@drawable/donate" />
 
     <item
-       android:id="@+id/history"
-        android:title="History"
-        android:icon="@drawable/history" />
+       android:id="@+id/goout"
+        android:title="Go Out"
+        android:icon="@drawable/goout" />
+
+
+
+    <item
+        android:id="@+id/premium"
+        android:title="Pro"
+        android:icon="@drawable/premium" />
 
 
 

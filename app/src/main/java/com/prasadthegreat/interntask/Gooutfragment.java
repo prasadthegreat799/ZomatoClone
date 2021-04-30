@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class Historyfragment extends Fragment {
+public class Gooutfragment extends Fragment {
 
 
     private static final String ARG_PARAM1 = "param1";
@@ -19,12 +19,12 @@ public class Historyfragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Historyfragment() {
+    public Gooutfragment() {
 
     }
 
-    public static Historyfragment newInstance(String param1, String param2) {
-        Historyfragment fragment = new Historyfragment();
+    public static Gooutfragment newInstance(String param1, String param2) {
+        Gooutfragment fragment = new Gooutfragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -45,7 +45,7 @@ public class Historyfragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view=inflater.inflate(R.layout.fragment_historyfragment, container, false);
+        View view=inflater.inflate(R.layout.fragment_gooutfragment, container, false);
 
         return view;
     }
